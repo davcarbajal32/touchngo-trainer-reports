@@ -1,12 +1,21 @@
-# TouchNGo Perfromance and Class SignUp Analysis PUBLIC
-IMPORTANT NOTE: Project data is proprietary and cannot be shared publicly. To address this, I have created this public repository containing project details, and a separate private repository with the full report files and documents. I can provide access to the private repository upon request, or present the methodology and visualizations in detail.
+Touch N Go Soccer: Performance and Enrollment Analytics
+A Python and Tableau-based analytics system built to evaluate trainer performance and class enrollment trends across Touch N Go Soccer locations. Insights from this project directly informed management decisions that grew enrollment across seven underperforming programs by over 175%.
+IMPORTANT NOTE: Project data is proprietary and cannot be shared publicly. This repository contains project details, methodology, and sample visualizations. Full methodology and results can be presented in detail upon request.
+Impact
 
-Project Description:
+Identified underperforming trainer-class pairings, enabling reassignments that grew enrollment across seven programs by over 175%
+Provided management with clear visibility into capacity utilization and participation trends
+Informed scheduling restructuring and marketing adjustments across multiple locations
 
-At Touch N Go Soccer, I developed a reporting tool in Python to evaluate trainer performance and class participation. Using enrollment data, I built visualizations in Matplotlib to show both percentage of capacity filled and raw sign-up counts over time. These reports gave management a clear view of which classes were thriving or underperforming, helping them make data-driven decisions about trainer assignments and scheduling.
+What It Does
 
-Python Libraries used:
-– Matplotlib: Created bar charts comparing enrollment trends by percentage and total sign-ups
+Tracks enrollment trends over time by class, trainer, and location
+Compares percentage of capacity filled and raw sign-up counts
+Flags underperforming programs and highlights top-performing trainer-class combinations
+Visualizes participation patterns to support data-driven scheduling decisions
 
-Conclusions:
-The visualized reports allowed management to quickly identify participation trends, optimize trainer assignments, and improve program scheduling. This project demonstrated how simple but well-structured Python visualizations can provide actionable business insights.
+Tech Stack
+Python (Pandas, NumPy, Matplotlib), Tableau
+Methodology
+Enrollment data was cleaned and structured using Pandas, then visualized through Matplotlib bar charts comparing enrollment by percentage and total sign-ups. Tableau dashboards were built to provide interactive views of trainer performance and class trends, allowing management to filter by location, time period, and program type.
+Reports were delivered on a recurring basis to support ongoing operational decisions around trainer assignments, class scheduling, and program investment.
